@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        testALS();
-        testALQ();
-        testLLS();
-        testLLQ();
+        testALS(); // MyArrayListStack test
+        testALQ(); // MyArrayListQueue test
+        testLLS(); // MyLinkedListStack test
+        testLLQ(); // MyLinkenListQueue test
     }
     public static void testALS(){
         String hardDivider = "========================================";
