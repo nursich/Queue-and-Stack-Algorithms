@@ -7,4 +7,8 @@ public class MyLinkedListStack<T> {
     public MyLinkedListStack() {
         stack = new LinkedList<>();
     }
+
+    public void push(T data) {
+        stack.addFirst(data);
+    }
 }
