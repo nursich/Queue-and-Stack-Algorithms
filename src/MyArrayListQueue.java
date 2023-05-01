@@ -29,4 +29,8 @@ public class MyArrayListQueue<E> {
         }
         return queue.get(0);
     }
+
+    public int size() {
+        return queue.size();
+    }
 }
