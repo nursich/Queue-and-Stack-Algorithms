@@ -10,4 +10,9 @@ public class MyArrayListStack<E> {
     public void push(E element) {
         stack.add(element);
     }
+
+    public boolean isEmpty() {
+        return stack.isEmpty();
+    }
+
 }
