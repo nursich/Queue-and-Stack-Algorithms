@@ -29,4 +29,8 @@ public class MyLinkedListStack<T> {
         }
         return stack.peekFirst();
     }
+
+    public int size() {
+        return stack.size();
+    }
 }
