@@ -22,4 +22,11 @@ public class MyLinkedListStack<T> {
         }
         return stack.removeFirst();
     }
+
+    public T peek() {
+        if (isEmpty()) {
+            throw new EmptyStackException();
+        }
+        return stack.peekFirst();
+    }
 }
