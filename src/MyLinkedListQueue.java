@@ -11,4 +11,11 @@ public class MyLinkedListQueue<T> {
     public void enqueue(T data) {
         queue.addLast(data);
     }
+
+    public T dequeue() {
+        if (isEmpty()) {
+            throw new NoSuchElementException();
+        }
+        return queue.removeFirst();
+    }
 }
