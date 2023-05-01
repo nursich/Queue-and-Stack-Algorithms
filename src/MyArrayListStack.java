@@ -11,10 +11,6 @@ public class MyArrayListStack<E> {
         stack.add(element);
     }
 
-    public boolean isEmpty() {
-        return stack.isEmpty();
-    }
-
     public E pop() {
         if (isEmpty()) {
             throw new EmptyStackException();
@@ -27,5 +23,13 @@ public class MyArrayListStack<E> {
             throw new EmptyStackException();
         }
         return stack.get(stack.size() - 1);
+    }
+
+    public boolean isEmpty() {
+        return stack.isEmpty();
+    }
+
+    public int size() {
+        return stack.size();
     }
 }
