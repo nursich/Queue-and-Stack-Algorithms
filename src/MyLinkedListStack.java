@@ -12,14 +12,14 @@ public class MyLinkedListStack<T> {
         stack.addFirst(data);
     }
 
+    public boolean isEmpty() {
+        return stack.isEmpty();
+    }
+
     public T pop() {
         if (isEmpty()) {
             throw new EmptyStackException();
         }
         return stack.removeFirst();
-    }
-
-    public boolean isEmpty() {
-        return stack.isEmpty();
     }
 }
