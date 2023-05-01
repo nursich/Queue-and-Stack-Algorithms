@@ -7,4 +7,8 @@ public class MyArrayListQueue<E> {
     public MyArrayListQueue() {
         queue = new ArrayList<E>();
     }
+
+    public boolean isEmpty() {
+        return queue.isEmpty();
+    }
 }
