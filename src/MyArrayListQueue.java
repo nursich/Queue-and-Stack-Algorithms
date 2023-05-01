@@ -11,4 +11,8 @@ public class MyArrayListQueue<E> {
     public boolean isEmpty() {
         return queue.isEmpty();
     }
+
+    public void enqueue(E element) {
+        queue.add(element);
+    }
 }
