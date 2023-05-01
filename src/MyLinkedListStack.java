@@ -11,4 +11,8 @@ public class MyLinkedListStack<T> {
     public void push(T data) {
         stack.addFirst(data);
     }
+
+    public boolean isEmpty() {
+        return stack.isEmpty();
+    }
 }
