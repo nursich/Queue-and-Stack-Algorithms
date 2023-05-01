@@ -15,4 +15,11 @@ public class MyArrayListQueue<E> {
     public void enqueue(E element) {
         queue.add(element);
     }
+
+    public E dequeue() {
+        if (isEmpty()) {
+            throw new NoSuchElementException("Queue is empty");
+        }
+        return queue.remove(0);
+    }
 }
