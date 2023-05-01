@@ -29,4 +29,8 @@ public class MyLinkedListQueue<T> {
     public boolean isEmpty() {
         return size() == 0;
     }
+
+    public int size() {
+        return queue.size();
+    }
 }
