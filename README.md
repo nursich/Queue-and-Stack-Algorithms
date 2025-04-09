@@ -1,4 +1,4 @@
-# Stack and Queue Algorithms - Documentation
+# Queue and Stack Algorithms - Documentation
 
 # @MyArrayListStack
 
