@@ -1,4 +1,4 @@
-# Assignment-3 Documentation
+# Stack and Queue Algorithms - Documentation
 
 # @MyArrayListStack
 
